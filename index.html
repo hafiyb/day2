@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0 auto;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        #container{
+            width: 1442px;
+            height: 3826px;
+            background-color: black;
+        }
+
+        nav{
+            height: 50px;
+            width: 100%;
+            background-color: #6D41BF;
+            padding: 5px;
+            color:white;
+        }
+
+        nav h1, nav ul{
+            margin-right: 330px;
+            display: inline-block;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-right: 30px;
+
+        }
+
+
+        #nav-button{
+            width: 170px;
+            height: 40px;
+            border: 2px solid white;
+            display: inline-block;
+            vertical-align: top;
+            border-radius: 20px;
+            text-align: center;
+            padding: 8px;
+        }
+
+        #header{
+            height: 700px;
+            background-color: #9152C7;
+            padding: 50px 0 0 100px;
+            color: white;
+            overflow: hidden;
+        }
+
+        #header1{
+            width:400px;
+            display: inline-block;   
+            vertical-align: top;     
+            margin-top: 90px;   
+        }
+
+        #orange-button{
+            background-color: orange;
+            width: 190px;
+            height: 50px;
+            border-radius: 25px;
+            text-align: center;
+            padding: 15px 0;
+            margin: 0;
+        }
+        
+        .contents{
+            height: 775px;
+            overflow: hidden;
+        }
+
+        .content1-top{
+            width: 600px;
+            display: inline-block;
+            padding: 100px 0 0 100px;
+        }
+
+        #content1-list{
+            margin: 100px 0 0 100px;
+        }
+
+        #content1-list li{
+            display: inline-block;
+            margin-right: 50px;
+        }
+
+        #gallery{
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .gallery-images{
+            margin-right: 50px;
+        }
+
+        #content2-text{
+            width: 500px;
+            margin-left: 200px;
+            padding-bottom: 400px;
+            display: inline-block;
+            color: white;
+            vertical-align: middle;
+        }
+
+        .icon-box{
+            background-color: white;
+            width: 370px;
+            height: 220px;
+            display: inline-block;
+            margin:7px;
+            vertical-align: top;
+        }
+
+        .icon-images{
+            padding: 40px 0 15px 0 ;
+        }
+
+        .icon-text{
+            padding-top: 10px;
+            font-size: 12px;
+        }
+
+        .testi-box{
+            height: 270px;
+            width: 370px;
+            box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+            display: inline-block;
+            margin: 21px;
+            padding:25px;
+            text-align: left;
+            vertical-align: top;
+        }
+
+        .testi-image-circle{
+            height: 66px;
+            width: 66px;
+            border-radius: 33px;
+            background-color: black;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        .testi-image{
+            width: 100%;
+            height: 100%;
+        }
+        .testi-text{
+            margin: 15px 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        
+        <nav>
+            <h1 style="font-size: 30px; margin-top: 5px;">Relap</h1>
+            <ul>
+                <li>Home</li>
+                <li>Features</li>
+                <li>Work</li>
+                <li>About</li>
+                <li>People</li>
+                <li>News</li>
+            </ul>
+            <div id="nav-button"><p>Contact Us</p></div>
+        </nav>
+
+        <div id="header">
+            <div id="header1">
+                <h1 style="font-size: 60px; margin-bottom: 20px;">Omnis Voluptas</h1>
+                <p style="margin-bottom: 50px;">Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut er voluptates repudiandae sint et molestiae non recusandae.</p>
+                <div id="orange-button">
+                    <p>Explore</p>
+                </div>
+            </div>
+            <img style="display: inline-block; margin-left: 100px; " src="assets/banner_bg.png">
+        </div>
+
+        <div class="contents" style="background-color: #FDF1FF;">
+            <div>
+                <div class="content1-top">
+                    <p>Nisi ut aliquid</p>
+                    <h1>Ullam corporis suscipit</h1>
+                </div>
+                <div class="content1-top">
+                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui doorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                </div>
+                <ul id="content1-list">
+                    <li>Quis Autem</li>
+                    <li>Reprehenderit</li>
+                    <li>Voluptate</li>
+                    <li>Molestiae</li>
+                    <li>Consequatur</li>
+                </ul>
+                <div id="gallery">
+                    <img class="gallery-images" src="assets/gallery_1.png" alt="">
+                    <img class="gallery-images" src="assets/gallery_2.png" alt="">
+                    <img class="gallery-images" src="assets/gallery_3.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="contents" style="background-color: #3023AE;">
+        <!-- <img src="assets/about_bg.png"> -->
+        <img style="display: inline-block; padding: 100px 0 0 100px;" src="assets/about_img.png">
+        <div id="content2-text">
+            <p>Repellendus</p>
+            <br/>
+            <h2>Temporibus quibusdam</h2>
+            <br/>
+            <p>Nam libero tempore, cum soluta nobis est elligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est.</p>
+            <p>Our Team</p>
+        </div>
+        </div>
+        
+        <div class="contents" style="background-color: #DFD9D9; text-align: center;">
+            <h1 style="padding-top: 80px" >Fugiat quo</h1>
+            <br/>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium <br/>doloremque laudantium, totam rem aperiam</p>
+            <div style="margin-top: 60px;">
+                <div class="icon-box">
+                    <img class="icon-images" src="assets/icon_1.png" alt="">
+                    <h3>Consequuntur</h3>
+                    <p class="icon-text">Enim ipsam voluptatem quia valuptas sit <br> aspernasad asd asd tur aut odit au</p>
+                </div>
+                <div class="icon-box">
+                    <img class="icon-images" src="assets/icon_2.png" alt="">
+                    <h3>Consequuntur</h3>
+                    <p class="icon-text">Enim ipsam voluptatem quia valuptas sit <br> aspernasad asd asd tur aut odit au</p>
+                </div>
+                <div class="icon-box">
+                    <img class="icon-images" src="assets/icon_3.png" alt="">
+                    <h3>Consequuntur</h3>
+                    <p class="icon-text">Enim ipsam voluptatem quia valuptas sit <br> aspernasad asd asd tur aut odit au</p>
+                </div>
+            </div>
+            <div>
+                <div class="icon-box">
+                    <img class="icon-images" src="assets/icon_4.png" alt="">
+                    <h3>Consequuntur</h3>
+                    <p class="icon-text">Enim ipsam voluptatem quia valuptas sit <br> aspernasad asd asd tur aut odit au</p>
+                </div>
+                <div class="icon-box">
+                    <img class="icon-images" src="assets/icon_5.png" alt="">
+                    <h3>Consequuntur</h3>
+                    <p class="icon-text">Enim ipsam voluptatem quia valuptas sit <br> aspernasad asd asd tur aut odit au</p>
+                </div>
+                <div class="icon-box">
+                    <img class="icon-images" src="assets/icon_6.png" alt="">
+                    <h3>Consequuntur</h3>
+                    <p class="icon-text">Enim ipsam voluptatem quia valuptas sit <br> aspernasad asd asd tur aut odit au</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="contents" style="background-color: #FFFFFF;">
+            <div style="height: 90px; width: 550px; text-align: center; margin-top: 80px;">
+                <h2>Testimonial</h2>
+                <p>Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis <br>voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repella.</p>
+            </div>
+            <div style="text-align: center;">
+                <div class="testi-box">
+                    <div class="testi-image-circle">
+                        <img class="testi-image" src="assets/profile_1.png" alt="">
+                    </div>
+                    <p class="testi-text">"Voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis"</p>
+                    <h3>Malin Quist</h3>
+                </div>
+                <div class="testi-box">
+                    <div class="testi-image-circle">
+                        <img class="testi-image" src="assets/profile_2.png" alt="">
+                    </div>
+                    <p class="testi-text">"Voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis"</p>
+                    <h3>Malin Quist</h3>
+                </div>
+                <div class="testi-box">
+                    <div class="testi-image-circle">
+                        <img class="testi-image" src="assets/profile_3.png" alt="">
+                    </div>
+                    <p class="testi-text">"Voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis"</p>
+                    <h3>Malin Quist</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
