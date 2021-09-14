@@ -97,6 +97,18 @@
             text-align: center;
         }
 
+        .gallery-box{
+            margin:0;
+            margin-right: 50px;
+            padding: 180px 0 0 50px;
+            height: 270px;
+            width: 370px;
+            text-align: left;
+            overflow: hidden;
+            background-color: black;
+            display: inline-block;
+        }
+
         .gallery-images{
             margin-right: 50px;
         }
@@ -201,9 +213,21 @@
                     <li>Consequatur</li>
                 </ul>
                 <div id="gallery">
-                    <img class="gallery-images" src="assets/gallery_1.png" alt="">
+                    <div class="gallery-box" style="background-image: url(assets/gallery_1.png)">
+                        <h5 style="margin-bottom: 10px;">Gallery One</h5>
+                        <p>This is gallery one</p>
+                    </div>
+                    <div class="gallery-box" style="background-image: url(assets/gallery_2.png)">
+                        <h5 style="margin-bottom: 10px;">Gallery Two</h5>
+                        <p>This is gallery two</p>
+                    </div>
+                    <div class="gallery-box" style="background-image: url(assets/gallery_3.png)">
+                        <h5 style="margin-bottom: 10px;">Gallery Three</h5>
+                        <p>This is gallery three</p>
+                    </div>
+                    <!-- <img class="gallery-images" src="assets/gallery_1.png" alt="">
                     <img class="gallery-images" src="assets/gallery_2.png" alt="">
-                    <img class="gallery-images" src="assets/gallery_3.png" alt="">
+                    <img class="gallery-images" src="assets/gallery_3.png" alt=""> -->
                 </div>
             </div>
         </div>
